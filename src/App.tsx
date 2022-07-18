@@ -1,6 +1,7 @@
 import './global.css'
 import styles from './App.module.css'
 import Logo from './assets/logo.svg'
+import { NewTaskSection } from './NewTaskSection'
 
 export function App() {
   return(
@@ -8,8 +9,7 @@ export function App() {
       <header className={styles.header}>
         <img src={Logo} alt="Logo to-do" />
       </header>
-      <div className={styles.input}></div>
-    
+      <NewTaskSection />
     </>
   )
 }
