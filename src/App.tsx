@@ -2,6 +2,7 @@ import './global.css'
 import styles from './App.module.css'
 import Logo from './assets/logo.svg'
 import { NewTaskSection } from './NewTaskSection'
+import { TasksWrapper } from './TasksWrapper'
 
 export function App() {
   return(
@@ -10,6 +11,7 @@ export function App() {
         <img src={Logo} alt="Logo to-do" />
       </header>
       <NewTaskSection />
+      <TasksWrapper />
     </>
   )
 }

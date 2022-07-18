@@ -1,0 +1,21 @@
+.tasksHeader {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tasksHeader p {
+  color: var(--blue);
+  font-weight: bold;
+  font-size: .875rem;
+}
+
+.tasksHeader span {
+  margin-left: .5rem;
+  background: var(--gray-400);
+  padding: .125rem .5rem;
+  border-radius: 10px;
+  font-size: .75rem;
+  color: #fff;
+  font-weight: bold;
+}
