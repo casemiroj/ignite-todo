@@ -4,3 +4,10 @@
   width: 46rem;
   margin: 4rem auto 0 auto;
 }
+
+.list {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: .75rem
+}

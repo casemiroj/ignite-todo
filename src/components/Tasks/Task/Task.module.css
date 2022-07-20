@@ -6,22 +6,36 @@
   gap: .75rem;
   border-radius: 8px;
   color: var(--gray-100);
-  margin-bottom: 1rem;
 }
 
-.task input[type='checkbox'] {
-  border-radius: 50px;
-}
 
 .task p {
   font-size: .875rem;
+  line-height: 1.18rem;
 }
 
-.task button{
+.task .delete {
   line-height: 0;
   background: transparent;
   border: 0;
   padding: .3rem;
   color: var(--gray-100);
   border-radius: 4px;
+}
+
+
+.checkContainer {
+  width: 1.625rem;
+  height: 1.625rem;
+  background: none;
+  border: none;
+  padding: .2rem;
+  border-radius: 4px;
+}
+
+.checkContainer div {
+  width: 100%;
+  height: 100%;
+  border: 2px solid var(--blue);
+  border-radius: 100%;
 }
