@@ -3,13 +3,14 @@
   height: 12.5rem;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .logoSection img {
   width: 8rem;
 }
 
-.formContainer {
+.newTaskForm {
   display: flex;
   justify-content: space-between;
   width: 46rem;
@@ -17,34 +18,31 @@
   margin: -1.5rem auto 0 auto;
 }
 
-.formContainer input {
-  width: 39rem;
+.newTaskForm input {
+  width: 39.875rem;
   border-radius: 8px;
   padding: 1rem;
   background: var(--gray-500);
   border: 0;
-  color: #fff;
 }
 
-.formContainer input::placeholder {
+.newTaskForm input::placeholder {
   color: var(--gray-300)
 } 
 
-.formContainer button {
+.newTaskForm button {
   display: flex;
   gap: .2rem;
   font-size: .875rem;
   justify-content: center;
   align-items: center;
-  width: 5.5rem;
+  width: 5.625rem;
   border-radius: 8px;
   background: var(--blue-500);
-  color: #fff;
   border: 0;
-  cursor: pointer;
   transition: background-color .1s;
 }
 
-.formContainer button:hover {
+.newTaskForm button:hover {
   background: var(--blue);
 }

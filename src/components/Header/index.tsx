@@ -1,6 +1,6 @@
 import styles from './Header.module.css'
 import Logo from '../../assets/logo.svg'
-import { PlusCircle } from 'phosphor-react'
+import { AiOutlinePlusCircle } from 'react-icons/ai'
 
 export function Header() {
   return(
@@ -8,13 +8,13 @@ export function Header() {
       <div className={styles.logoSection}>
         <img src={Logo} alt="Logo to-do" />
       </div>
-      <form className={styles.formContainer}>
+      <form className={styles.newTaskForm}>
         <input type="text" placeholder="Adicione uma nova tarefa" />
         <button>
           Criar 
-          <PlusCircle size={16} weight="bold"/>
+          <AiOutlinePlusCircle size={16} />
         </button>
-    </form>
+      </form>
     </header>
   )
 }

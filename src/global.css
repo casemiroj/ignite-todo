@@ -29,10 +29,16 @@
 
 body {
   background: var(--gray-600);
+  -webkit-font-smoothing: antialiased;
+}
+
+button {
+  cursor: pointer;
 }
 
 body, input, textarea, button {
   font-family: 'Inter', sans-serif;
+  color: var(--gray-100);
   line-height: 1.4;
   font-size: 1rem;
 }
