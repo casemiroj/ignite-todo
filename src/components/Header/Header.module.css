@@ -1,3 +1,14 @@
+.logoSection {
+  background: var(--gray-700);
+  height: 12.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.logoSection img {
+  width: 8rem;
+}
+
 .formContainer {
   display: flex;
   justify-content: space-between;
